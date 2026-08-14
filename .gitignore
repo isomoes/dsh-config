@@ -2,3 +2,6 @@
 /profiles/node_modules
 /sessions
 /storages
+/profiles/web/node_modules
+/profiles/web/pnpm-lock.yaml
+/profiles/web/pnpm-workspace.yaml

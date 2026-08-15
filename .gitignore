@@ -1,6 +1,7 @@
 /.anonymous-user-id
 /sessions
 /storages
+/attachments/
 
 # Node.js dependencies
 **/node_modules/

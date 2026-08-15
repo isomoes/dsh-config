@@ -2,13 +2,15 @@
   "name": "dsh-profile-ikanban",
   "private": true,
   "dependencies": {
-    "@isomoes/dsh-ikanban": "^0.4.1"
+    "@isomoes/dsh-ikanban": "^0.4.2",
+    "dsh-codex-auth": "^0.1.0"
   },
   "dsh": {
     "profile": {
       "bundles": [
         "@deepseek-ai/dsh-base",
-        "@isomoes/dsh-ikanban"
+        "@isomoes/dsh-ikanban",
+        "dsh-codex-auth"
       ]
     }
   }

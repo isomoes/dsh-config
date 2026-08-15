@@ -1,8 +1,8 @@
 {
-  "name": "dsh-profile-ikanban",
+  "name": "dsh-profile-ikanban-dev",
   "private": true,
   "dependencies": {
-    "@isomoes/dsh-ikanban": "^0.4.1"
+    "@isomoes/dsh-ikanban": "link:/home/isomoes/code/js/ikanban/packages/ikanban"
   },
   "dsh": {
     "profile": {

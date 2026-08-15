@@ -1,0 +1,15 @@
+{
+  "name": "dsh-profile-ikanban",
+  "private": true,
+  "dependencies": {
+    "@isomoes/dsh-ikanban": "link:/home/isomoes/code/js/ikanban/packages/ikanban"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@isomoes/dsh-ikanban"
+      ]
+    }
+  }
+}

@@ -1,7 +1,13 @@
 /.anonymous-user-id
-/profiles/node_modules
 /sessions
 /storages
-/profiles/web/node_modules
-/profiles/web/pnpm-lock.yaml
-/profiles/web/pnpm-workspace.yaml
+
+# Node.js dependencies
+**/node_modules/
+
+# pnpm files and directories
+**/.pnpm/
+**/.pnpm-store/
+**/pnpm-lock.yaml
+**/pnpm-workspace.yaml
+**/pnpm-debug.log*

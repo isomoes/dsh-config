@@ -5,3 +5,7 @@ agent-default-model:
   model: gpt-5.6-sol
 locale:
   preference: en
+ui-theme:
+  preference: github-dark-colorblind
+agent-presets:
+  default: standard

@@ -2,7 +2,8 @@
   "name": "dsh-profile-ikanban",
   "private": true,
   "dependencies": {
-    "@isomoes/dsh-ikanban": "^0.4.2",
+    "@ai4paper/apaper-plugin": "^0.2.3",
+    "@isomoes/dsh-ikanban": "^0.4.7",
     "dsh-codex-auth": "^0.1.0"
   },
   "dsh": {

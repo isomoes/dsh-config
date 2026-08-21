@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "@isomoes/dsh-ikanban": "link:/home/isomoes/code/js/ikanban/packages/ikanban",
-    "dsh-codex-auth": "^0.1.0"
+    "dsh-codex-auth": "^0.2.2"
   },
   "dsh": {
     "profile": {

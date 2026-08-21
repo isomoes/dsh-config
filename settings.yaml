@@ -8,4 +8,4 @@ locale:
 ui-theme:
   preference: github-dark-colorblind
 agent-presets:
-  default: standard
+  default: ikanban

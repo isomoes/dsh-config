@@ -9,3 +9,15 @@ ui-theme:
   preference: github-dark-colorblind
 agent-presets:
   default: ikanban
+ui-workspace-models:
+  3079089f-f7c9-424f-ae18-8f5c6a94b187:
+    provider: deepseek-official
+    model: deepseek-v4-flash
+  6402e11d-0a19-4fbf-9977-eced8fc44c65:
+    provider: openai-codex
+    model: gpt-5.6-sol
+  54b9b3d0-b04b-4fb6-9d9c-312d601a0578:
+    provider: openai-codex
+    model: gpt-5.6-sol
+codex-llm:
+  longContextEnabled: true

@@ -2,7 +2,8 @@
   "name": "dsh-profile-ikanban",
   "private": true,
   "dependencies": {
-    "@isomoes/dsh-ikanban": "^0.4.17",
+    "@isomoes/dsh-ikanban": "^0.5.3",
+    "@isomoes/dsh-web-ui": "^0.5.3",
     "dsh-codex-auth": "^0.3.0"
   },
   "dsh": {

@@ -19,5 +19,8 @@ ui-workspace-models:
   54b9b3d0-b04b-4fb6-9d9c-312d601a0578:
     provider: openai-codex
     model: gpt-5.6-sol
+  36c4a6fd-2fba-4b81-a84b-0457e68e5d88:
+    provider: openai-codex
+    model: gpt-5.6-sol
 codex-llm:
   longContextEnabled: true

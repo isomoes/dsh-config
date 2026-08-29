@@ -3,14 +3,15 @@
   "private": true,
   "dependencies": {
     "@isomoes/dsh-ikanban": "link:/home/isomoes/code/js/ikanban/packages/ikanban",
+    "@isomoes/dsh-web-ui": "link:/home/isomoes/code/js/ikanban/packages/web-ui",
     "dsh-codex-auth": "^0.2.2"
   },
   "dsh": {
     "profile": {
       "bundles": [
         "@deepseek-ai/dsh-base",
-        "@isomoes/dsh-ikanban",
-        "dsh-codex-auth"
+        "dsh-codex-auth",
+        "@isomoes/dsh-ikanban"
       ]
     }
   }

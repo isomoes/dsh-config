@@ -7,6 +7,7 @@ locale:
   preference: en
 ui-theme:
   preference: github-dark-colorblind
+  fontSize: 15
 agent-presets:
   default: ikanban
 ui-workspace-models:
@@ -20,6 +21,12 @@ ui-workspace-models:
     provider: openai-codex
     model: gpt-5.6-sol
   36c4a6fd-2fba-4b81-a84b-0457e68e5d88:
+    provider: openai-codex
+    model: gpt-5.6-sol
+  09bfff8a-e738-48aa-b351-28ba065c51c2:
+    provider: deepseek-official
+    model: deepseek-v4-flash
+  0df8c6be-b4b0-43b8-bc30-b669ad66d24e:
     provider: openai-codex
     model: gpt-5.6-sol
 codex-llm:

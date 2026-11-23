@@ -1,0 +1,20 @@
+{
+  "name": "dsh-profile-ipaper-dev",
+  "private": true,
+  "dependencies": {
+    "@ai4paper/apaper-plugin": "link:/home/isomoes/code/js/ipaper/node_modules/.pnpm/@ai4paper+apaper-plugin@0.2.3_f493aa6df3539275aa669c2bcea3e03a/node_modules/@ai4paper/apaper-plugin/",
+    "@ai4paper/dsh-ipaper": "link:/home/isomoes/code/js/ipaper/packages/dsh-ipaper/",
+    "@deepseek-ai/dsh": "link:/home/isomoes/code/js/ipaper/node_modules/.pnpm/@deepseek-ai+dsh@0.2.2-rc.1_a1bb14cf014feec84cbaa28c9368e435/node_modules/@deepseek-ai/dsh",
+    "@deepseek-ai/dsh-base": "link:/home/isomoes/code/js/ipaper/node_modules/.pnpm/@deepseek-ai+dsh-base@0.2.2-rc.1_b5e0da69f54df4cb26f8bd3861455063/node_modules/@deepseek-ai/dsh-base",
+    "@deepseek-ai/dsh-web-app": "link:/home/isomoes/code/js/ipaper/node_modules/.pnpm/@deepseek-ai+dsh-web-app@0.2.2-rc.1_45c076f1281c1107ce143a5b8376f1c2/node_modules/@deepseek-ai/dsh-web-app"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-web-app",
+        "@ai4paper/dsh-ipaper"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "dsh-profile-ipaper",
+  "private": true,
+  "dependencies": {
+    "@ai4paper/apaper-plugin": "0.2.3",
+    "@ai4paper/dsh-ipaper": "file:/home/isomoes/.dsh/profiles/ipaper/artifacts/ai4paper-dsh-ipaper-0.1.2.tgz",
+    "@deepseek-ai/dsh": "0.2.2-rc.1",
+    "@deepseek-ai/dsh-base": "0.2.2-rc.1",
+    "@deepseek-ai/dsh-web-app": "0.2.2-rc.1"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-web-app",
+        "@ai4paper/dsh-ipaper"
+      ]
+    }
+  }
+}

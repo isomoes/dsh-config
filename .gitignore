@@ -13,3 +13,7 @@
 **/pnpm-workspace.yaml
 **/pnpm-debug.log*
 /.credentials.yaml
+**/.plugin-manager/
+/profiles/install-probe
+/profiles/ipaper/artifacts
+/settings.yaml.imported
